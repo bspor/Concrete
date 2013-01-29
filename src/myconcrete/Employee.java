@@ -34,6 +34,7 @@ public class Employee {
     }
 
     public String getEmployeeNumber() {
+        setEmployeeNumber(employeeNumber);
         return employeeNumber;
     }
 

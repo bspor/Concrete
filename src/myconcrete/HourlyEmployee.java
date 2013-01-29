@@ -26,4 +26,11 @@ public class HourlyEmployee extends Employee {
     public void setHourlyWage(double hourlyWage) {
         this.hourlyWage = hourlyWage;
     }
+
+    @Override
+    //The getEmployeeName shows the inheritance
+    public String toString() {
+        return "HourlyEmployee{" + "hourlyWage=" + hourlyWage + "Name=" + getEmployeeName() +'}';
+    }
+    
 }
