@@ -1,12 +1,13 @@
 
 package myconcrete;
-
+//Necroed a class from java ch9 to play with
 public class Employee {
     //Variables
     private String employeeName;
     private String employeeNumber;
     private String hireDate;
     
+    //Constructors possible
     public Employee(String employeeName, String employeeNumber, String hireDate) {
         this.employeeName = employeeName;
         setEmployeeNumber(employeeNumber);
@@ -45,6 +46,7 @@ public class Employee {
         }
     }
 
+    //Make sure the employee number is a valid number
     public boolean isValidEmpNum(String e) {
     boolean isValid = true; 
 	        int i = 0;
